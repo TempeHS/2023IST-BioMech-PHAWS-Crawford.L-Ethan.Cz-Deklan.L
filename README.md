@@ -2,6 +2,6 @@
 
 ## About
 
-PHAWS or _P_re-emptive _H_eartrate _A_utomatic _W_arning _S_ystem is a head-mounted augment that alerts a user based on heart rate, movement and exerted stress via audial and visual means. 
+PHAWS or ***P***re-emptive ***H***eartrate ***A***utomatic ***W***arning ***S***ystem is a head-mounted augment that alerts a user based on heart rate, movement and exerted stress via audial and visual means. 
 
 Roles:
