@@ -8,9 +8,12 @@ Hardware Used:
 - Arduino R4 Wifi
 - Grove - GSR Sensor
 - Grove - Ear-Clip Heart Rate Sensor
-- 
+- Grove - Speaker
+- Grove - 6-Axis Accelerometer&amp;Gyroscope
+- Grove - 20 cable (5)
+- USB Type C to Type C Cable
 
 Roles:
 Crawford - Software and Hardware Tester
 Deklan - Designer
-Ethan - Documentor
+Ethan - Project Documentor
