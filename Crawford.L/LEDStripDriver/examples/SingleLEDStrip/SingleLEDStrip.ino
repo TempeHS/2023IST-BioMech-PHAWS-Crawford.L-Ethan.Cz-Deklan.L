@@ -15,8 +15,8 @@
 //  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 /***************************************************************************/
 #include "RGBdriver.h"
-#define CLK 2//pins definitions for the driver        
-#define DIO 3
+#define CLK 8//pins definitions for the driver        
+#define DIO 9
 RGBdriver Driver(CLK,DIO);
 void setup()  
 { 
