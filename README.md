@@ -14,5 +14,7 @@ Hardware Used:
 
 Roles:
 Crawford - Software and Hardware Tester
+<break>
 Deklan - Designer
+<break>
 Ethan - Documentor
