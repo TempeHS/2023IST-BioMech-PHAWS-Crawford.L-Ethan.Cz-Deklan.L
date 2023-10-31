@@ -1,0 +1,3 @@
+ - Accelerometer
+ - LED Strip
+ - Speaker
