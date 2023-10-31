@@ -27,10 +27,10 @@
 //See SparkFunLSM6DS3.h for additional topology notes.
 
 #include "LSM6DS3.h"
-#include <stdint.h>
+#include "stdint.h"
 
-#include <Wire.h>
-#include <SPI.h>
+#include "Wire.h"
+#include "SPI.h"
 
 #ifdef TARGET_SEEED_XIAO_NRF52840_SENSE
 #define Wire Wire1

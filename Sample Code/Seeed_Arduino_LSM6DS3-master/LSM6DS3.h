@@ -27,7 +27,7 @@
 #ifndef __LSM6DS3IMU_H__
 #define __LSM6DS3IMU_H__
 
-#include <stdint.h>
+#include "stdint.h"
 
 #define I2C_MODE 0
 #define SPI_MODE 1
