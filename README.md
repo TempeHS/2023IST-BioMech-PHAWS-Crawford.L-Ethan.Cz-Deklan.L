@@ -9,11 +9,14 @@ Hardware Used:
 - Grove - GSR Sensor
 - Grove - Ear-Clip Heart Rate Sensor
 - Grove - Speaker
-- Grove - 6-Axis Accelerometer&amp;Gyroscope
-- Grove - 20 cable (5)
+- Grove - 6-Axis Accelerometer & Gyroscope
+- Grove - 20cm cable (5)
 - USB Type C to Type C Cable
 
 Roles:
+<br>
 Crawford - Software and Hardware Tester
+<br>
 Deklan - Designer
+<br>
 Ethan - Project Documentor
