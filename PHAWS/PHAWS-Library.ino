@@ -1,5 +1,5 @@
 void GSR() {
-  const int GSR = A0;
+  int GSR = A0;
   int sensorValue = 0;
   int gsr_average = 0;
 
@@ -92,3 +92,17 @@ void arrayInit() {
   }
   temp[20] = millis();
 }
+
+
+
+void Accel() {
+    Serial.print("X1:");
+    Serial.println(myIMU.readFloatAccelX(), 4);
+    Serial.print("Y1:");
+    Serial.println(myIMU.readFloatAccelY(), 4);
+    Serial.print("Z1:");
+    Serial.println(myIMU.readFloatAccelZ(), 4);
+}
+
+
+
