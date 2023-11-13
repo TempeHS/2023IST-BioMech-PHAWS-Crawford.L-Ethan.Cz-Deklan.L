@@ -1,4 +1,4 @@
-//  Author:Frankie.Chu 
+//  Author:Frankie.Chu
 //  Date:March 9,2012
 //  This library is free software; you can redistribute it and/or
 //  modify it under the terms of the GNU Lesser General Public
@@ -15,16 +15,13 @@
 //  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 /***************************************************************************/
 #include "RGBdriver.h"
-#define CLK 2//pins definitions for the driver        
-#define DIO 3
-RGBdriver Driver(CLK,DIO);
-void setup()  
-{ 
-
-}  
-void loop()  
-{ 
-  unsigned int i;
+#define CLK 5  //pins definitions for the driver
+#define DIO 6
+RGBdriver Driver(CLK, DIO);
+void setup() {
+}
+void loop() {
+  /*unsigned int i;
   while(1){
     for(i = 0;i < 256;i ++)
     {
@@ -40,5 +37,9 @@ void loop()
       Driver.end();
       delay(10);
     }
-  }
+  } */
+  Driver.begin();                  // begin
+  Driver.SetColor(255, 0, 0);  //first node data
+  Driver.end();
+  delay(10);
 }
