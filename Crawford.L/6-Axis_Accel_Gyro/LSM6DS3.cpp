@@ -27,10 +27,10 @@
 //See SparkFunLSM6DS3.h for additional topology notes.
 
 #include "LSM6DS3.h"
-#include "stdint.h"
+#include <stdint.h>
 
-#include "Wire.h"
-#include "SPI.h"
+#include <Wire.h>
+#include <SPI.h>
 
 #ifdef TARGET_SEEED_XIAO_NRF52840_SENSE
 #define Wire Wire1
@@ -86,7 +86,7 @@ status_t LSM6DS3Core::beginCore(void) {
             // start the SPI library:
             SPI.begin();
             // Maximum SPI frequency is 10MHz, could divide by 2 here:
-            SPI.setClockDivider(SPI_CLOCK_DIV4);
+            SPI.setClockDivider(SPI_CLOCK_DIV32);
             // Data is read and written MSb first.
 #ifdef ESP32
             SPI.setBitOrder(SPI_MSBFIRST);
