@@ -8,6 +8,7 @@ PHAWS or ***P***re-emptive ***H***eartrate ***A***utomatic ***W***arning ***S***
 
 Hardware Used:
 - Arduino R4 Wifi
+- Arduino Uno
 - Grove - GSR Sensor
 - Grove - Ear-Clip Heart Rate Sensor
 - Grove - Speaker
@@ -19,6 +20,6 @@ Roles:
 <br>
 Crawford - Software and Hardware Tester
 <br>
-Deklan - Designer
+Deklan - Product Designer
 <br>
-Ethan - Project Documentor
+Ethan - Project Documentor and Code Compiler
