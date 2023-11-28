@@ -8,7 +8,7 @@ PHAWS or ***P***re-emptive ***H***eartrate ***A***utomatic ***W***arning ***S***
 
 Hardware Used:
 - Arduino Uno R4 Wifi
-- Arduino Uno R3
+- seeeed studio seeeduino (Arduino Uno equivalent)
 - Grove - GSR Sensor
 - Grove - Ear-Clip Heart Rate Sensor
 - Grove - Speaker
