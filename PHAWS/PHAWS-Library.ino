@@ -1,12 +1,8 @@
 void GSR() {
-  int GSR = A0;
-  int sensorValue = 0;
-  int gsr_average = 0;
-
   long sum = 0;
   for (int i = 0; i < 10; i++) /* Average the 10 measurements to remove the glitch */
   {
-    sensorValue = analogRead(GSR);
+    sensorValue = analogRead(gsr);
     sum += sensorValue;
     delay(5);
   }
@@ -23,6 +19,7 @@ void pinInit() {
 
 
 
+/* wait for deklan to fix
 void sound(uint8_t note_index) {
     for(int i=0;i<60;i++)
     {
@@ -42,8 +39,7 @@ void SPKR () {
         delay(0);
     }
 }
-
-
+*/
 
 void sum() {
   if (data_effect) {
