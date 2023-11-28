@@ -92,11 +92,11 @@ void arrayInit() {
 
 
 void Accel() {
-    Serial.print("X1:");
+    Serial.print("X:");
     Serial.println(myIMU.readFloatAccelX(), 4);
-    Serial.print("Y1:");
+    Serial.print("Y:");
     Serial.println(myIMU.readFloatAccelY(), 4);
-    Serial.print("Z1:");
+    Serial.print("Z:");
     Serial.println(myIMU.readFloatAccelZ(), 4);
 }
 

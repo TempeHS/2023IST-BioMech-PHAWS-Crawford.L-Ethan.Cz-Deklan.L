@@ -39,6 +39,6 @@ void loop() {
 
 
   digitalWrite(LED, led_state);
-  Accel()
+  Accel();
 
 }
