@@ -39,7 +39,7 @@ void loop() {
     }
   } */
   Driver.begin();                  // begin
-  Driver.SetColor(255, 0, 0);  //first node data
+  Driver.SetColor(255, 255, 0);  //first node data
   Driver.end();
   delay(10);
 }
